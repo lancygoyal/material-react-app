@@ -60,13 +60,8 @@
     "predeploy": "npm run build"
   },
   "reactSnapshot": {
-    "include": [
-      "/signin"
-    ],
-    "exclude": [
-      "/signup",
-      "/dashboard/**"
-    ],
+    "include": ["/signin"],
+    "exclude": ["/signup", "/dashboard/**"],
     "snapshotDelay": 5000
   },
   "author": "Lancy Goyal",
